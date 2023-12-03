@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup>
+        <RootNamespace>OpenTelemetryExample.$(MSBbuildProjectName)</RootNamespace>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <WarningsAsErrors>nullable</WarningsAsErrors>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+</Project>

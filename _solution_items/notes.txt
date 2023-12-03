@@ -1,0 +1,16 @@
+install the dotnet-counters tool. 
+it is a free tool that can check counters without any installation. 
+you can use the tool to check the counters on the local machine or on a remote machine.
+
+
+dotnet-counters monitor -n WebMetric --counters Microsoft.AspNetCore.Hosting
+
+
+==============
+
+run prometheus 
+docker run -p 9090:9090 -v C:\dev\DockerAssets\prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+
+
+
+next: https://learn.microsoft.com/en-us/aspnet/core/log-mon/metrics/metrics?view=aspnetcore-8.0&source=recommendations#enrich-the-aspnet-core-request-metric

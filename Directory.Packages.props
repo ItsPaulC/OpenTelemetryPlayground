@@ -1,0 +1,8 @@
+<Project>
+  <ItemGroup>
+    <!-- Define your package versions here -->
+    <PackageVersion  Include="OpenTelemetry.Exporter.Prometheus.AspNetCore" Version="1.7.0-alpha.1" />
+    <PackageVersion  Include="OpenTelemetry.Extensions.Hosting" Version="1.7.0-alpha.1" />
+    <!-- Add other packages as needed -->
+  </ItemGroup>
+</Project>
